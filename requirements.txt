@@ -1,0 +1,15 @@
+# FindMy Cache Decryptor - Python Dependencies
+# 
+# This file contains the required Python packages for the FindMy Cache Decryptor
+# Install with: pip install -r requirements.txt
+
+# Cryptography library for ChaCha20-Poly1305 AEAD encryption/decryption
+cryptography>=41.0.0
+
+# Optional: For better error handling and debugging
+# colorama>=0.4.6  # For colored terminal output (optional)
+
+# Development dependencies (optional)
+# pytest>=7.0.0    # For running tests
+# black>=23.0.0    # For code formatting
+# flake8>=6.0.0    # For code linting 
